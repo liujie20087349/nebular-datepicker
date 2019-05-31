@@ -5,17 +5,19 @@ This project was build to show some unexpected results about nb-datepicker in fo
 you can clone this repo, then execute:
 
 
-npm install 
+`npm install `
 
-My node version is 8.15.0, I suggest that you should use the same node version in order to avoid some unrelated issue.
+My node version is `8.15.0`, I suggest that you should use the same node version in order to avoid some unrelated issue.
 
 after installed, execute:
 
-npm start
+`npm start`
 
-you can see the page on browser with: localhost:4200
+you can see the page on browser with: `localhost:4200`
 
 # Reproduce Issue
+
+***This is not an error, just works not as I expected***
 
 1. open the developer tools on your browser or press F12 to see the console
 
