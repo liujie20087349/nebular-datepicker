@@ -18,6 +18,6 @@ export class AppComponent {
   }
 
   dateChange() {
-    console.log(this.myForm);
+    console.log(this.myForm.get('birthDate'));
   }
 }
