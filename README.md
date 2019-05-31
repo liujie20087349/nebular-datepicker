@@ -1,3 +1,12 @@
+#[Nebular](https://akveo.github.io/nebular/)
+
+##[ngx-admin](http://akveo.com/ngx-admin/pages/iot-dashboard)
+
+#What is Nebular?
+Nebular is a set of essential modules for your next Angular application.
+
+The purpose of the modules is to solve generic tasks faster and more efficient so that you can focus on business logic and leave routine behind.
+
 # DatepickerNebular
 
 This project was build to show some unexpected results about nb-datepicker in formcontrol validation
@@ -83,3 +92,7 @@ in NgModule providers:
 the validation of the same form control works OK, *errors* becomes *null* in the birthDate formControl
 
 and if change locale from ***en*** to ***fr***, *errors* come back again
+
+# What I expect
+
+The form control validation works in other languages, not just in english, so I can submit the form if every form control is truely valid.

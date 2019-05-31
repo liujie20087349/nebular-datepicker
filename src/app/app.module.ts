@@ -42,7 +42,7 @@ import fr from '@angular/common/locales/fr';
 import en from '@angular/common/locales/en';
 
 
-registerLocaleData(zh);
+registerLocaleData(en);
 
 const nebular_imports = [
   NbActionsModule,
@@ -99,7 +99,7 @@ const nebular_imports = [
     },
     ...NbDatepickerModule.forRoot().providers,
     {
-      provide: LOCALE_ID, useValue: 'zh-cn'
+      provide: LOCALE_ID, useValue: 'en'
     }
   ],
   bootstrap: [AppComponent]
